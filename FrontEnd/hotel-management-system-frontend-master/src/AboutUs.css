@@ -1,0 +1,142 @@
+.about-us-container {
+    margin: 0px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .about-us-heading {
+    color: #D4AA00; /* Aapka website color */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .image-section {
+    width: 95%;
+    height: 600px;
+    background-image: url('images/background1.jpg'); /* Apne image ka path yahan daalein */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  #row1{background-color: #ffdbdb;}
+  #row2{background-color: #eaffdb;}
+  #row3{background-color: #dbfffa;}
+  #row4{background-color: #ffdbf1;}
+  
+  .big-text,
+  .medium-text,
+  .small-text {
+    position: absolute;
+    color: #D4AA00;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+  }
+  
+  .big-text {
+    font-size: 36px;
+    font-weight: bold;
+    top: 15%; /* 15% from the top */
+    margin: 0;
+  }
+  
+  .medium-text {
+    font-size: 24px;
+    top: 25%; /* 25% from the top */
+    margin: 0;
+  }
+  
+  .small-text {
+    font-size: 16px;
+    top: 35%; /* 35% from the top */
+    margin: 0;
+  }
+  
+  .about-us-section {
+    padding: 20px;
+  }
+  
+  .row-container {
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .row-container.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .image {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  .text-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .text-content h2 {
+    color: #D4AA00;
+    margin-bottom: 10px;
+  }
+  
+  .text-content p {
+    color: #555;
+  }
+
+  
+  /* ############### */
+
+  /* For the row containers that hold images and text */
+.row-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px; /* Adjust space between rows */
+    padding: 20px;
+  }
+  
+  /* For the text content section in each row */
+  .text-content {
+    flex: 1;
+    padding: 20px;
+    border-top: 4px solid #D4AA00; /* Border at the top of the text section */
+    margin-top: 10px;
+  }
+  
+  /* For heading inside text content */
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* For paragraphs inside text content */
+  .text {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* For images */
+  .image {
+    width: 40%; /* Adjust image size */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Adds shadow to image */
+  }
+  

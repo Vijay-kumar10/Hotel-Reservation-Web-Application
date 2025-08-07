@@ -1,0 +1,199 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top Section */
+  .top-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .top-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .top-section h2 {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  /* Image Grid Section */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .image-card {
+    text-align: center;
+  }
+  
+  .image-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .image-card h3 {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .image-card p {
+    color: #666;
+  }
+  
+  /* Text Section */
+  .text-section {
+    background-color: #D4AA00;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .text-section h2 {
+    font-size: 2rem;
+  }
+  
+  .text-section p {
+    font-size: 1rem;
+  }
+  
+  /* Services Grid */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 0px 100px;
+    background-color: #fff;
+  }
+  
+  .service-card {
+    text-align: center;
+  }
+  
+  .service-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .service-card h3 {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .service-card p {
+    color: #666;
+  }
+  
+  .service-card button {
+    margin-top: 0.5rem;
+    background-color: #D4AA00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service-card button:hover {
+    background-color: #D4AA00;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  
+  /* Form Container Styling */
+.contact-form-container {
+  background-color: #D4AA00; /* Orange background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px; /* Fixed width */
+  margin: 50px auto; /* Center the form horizontally */
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for effect */
+}
+
+.contact-form-container h3 {
+  font-size: 2rem; /* Large, bold text for the heading */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff; /* White color for the text */
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: none; /* Prevent resizing of the textarea */
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+.form-background{
+  background-color: #D4AA00;
+}
+  
+
+/* Add or update this in TravelPage.css */
+
+/* Styling for the Image Grid Section */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 15px; /* Reduced gap between images */
+  padding: 0 125px; /* More space on left and right sides */
+  background-color: #fff; /* Optional background color */
+}
+
+/* Styling for Images */
+.image-card img,
+.service-card img {
+  width: 400px;
+  height: 450px;
+  object-fit: cover; /* Ensures the image is properly cropped and scaled */
+  border-radius: 25px; /* Rounded corners for the images */
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
